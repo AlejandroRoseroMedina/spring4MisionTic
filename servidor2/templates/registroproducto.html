@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Registrar Producto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <style>
+    form{
+      width:600px;
+      height:750px;
+      border-radius:10px;
+      margin:auto;
+      background-color: rgb(47, 202, 168);
+      text-align: center;
+      }
+  </style>
+ </head>
+
+<body background="../static/img/panadera5.jpg">
+  <div class="container" >
+    <form action="html5-formularios.html" method="get">
+          <center><img src="../../static/img/logo4.png" width="250" height="250"></center>
+          <h2><center>Registro de Producto</center> </h2>
+          <div class="container">
+              <form>
+                <div style="text-align: center;">
+                  <button role=link onClick="window.location='/principal'" type="button" class="btn btn-default" style="position: absolute;right: 30%;">Volver</button>
+                </div>
+                 <div class="form-group"><br>
+                    <label for="nombre"><b>Nombre:</b></label><br>
+                    <input type="text" id="nombre" name="nombre">
+                 </div>
+                 <div class="form-group">
+                    <label for="codigo"><b>Código:</b></label><br>
+                    <input type="text" id="codigo" name="codigo">
+                 </div>
+                 <div class="form-group">
+                    <label for="precio"><b>Precio:</b></label><br>
+                    <input type="text" id="precio" name="precio">
+                 </div>
+                    <label></label> <b>Foto del producto</b> </label><br><br>
+                    <input type="file"> <br><br>
+                    <div class="boton1">
+                      <input role=link onClick="window.location='/principal'" type="button" value="Guardar y Salir" name="boton" role=link onclick="window.location='principal.html'"
+                      style="border-radius: 15px; FONT-SIZE: 14pt; FONT-FAMILY: Verdana; 
+                      BACKGROUND-COLOR: rgb(149, 150, 99)">
+                   </div> 
+              </form>
+          </div>
+    </form>
+  </div>        
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>List</title>  
+</head>  
+<body>  
+  
+<h3>Informacion de empleados</h3>  
+<table border=2>  
+    <thead>  
+        <td>ID</td>  
+        <td>Nombre</td>  
+        <td>Email</td>  
+        <td>Direccion</td>  
+    </thead>  
+      
+    {% for row in rows %}  
+      
+        <tr>  
+            <td>{{row["id"]}}</td>  
+            <td>{{row["name"]}}</td>  
+            <td>{{row["email"]}}</td>  
+            <td>{{row["address"]}}</td>  
+        </tr>  
+      
+    {% endfor %}  
+</table>  
+<br><br>  
+  
+<a href="/">Ir a la Pagina Principal</a>  
+  
+</body>  
+</html>  

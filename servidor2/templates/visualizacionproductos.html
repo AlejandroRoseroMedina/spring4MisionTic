@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+  <style>
+    form{
+      width:800px;
+      height:960px;
+      border-radius:10px;
+      margin:auto;
+      background-color: rgb(47, 202, 168);
+      text-align: center;
+      }
+  </style>
+  <style>
+    .container{
+      padding: top 1;
+    }
+  </style>    
+  <style>    
+    .botonesvta{
+      padding-right:7%;
+      padding-left:5%;
+      
+    }  
+  </style>
+  <style>
+    .title5{
+       padding-left: 10%;
+    }  
+  </style>
+  <style>
+     p.centrado {
+        text-align: center;
+     }
+     p.derecha {
+        text-align: right;
+     }
+  </style>
+<head>
+  <title>Visualizacion de Productos</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+<div class="container" >
+  <form action="html5-formularios.html" method="get">
+  <body background="../static/img/fondo1.jpg">
+  <div class="container">
+    
+      <p class="centrado">
+        <img alt="Logotipo de Cafetería" src="../static/img/logo4.png" width="250" height="250" title="Logotipo Cafeteria">
+      </p>
+            <div class="form-group">
+              <!-- Aqui esta la interaccion con el formulario del servidor -->
+              <h5>Bienvenido Cajero: {{nombre}}</h5>
+              <label for="codigo" ><b>Nombre del producto:</b></label><br>
+              <input type="text" id="codigo" name="codigo"><br>
+              <button type="button" class="btn btn-default">Buscar</button>
+              <br>
+            </div>
+            <div class="title5">  
+                <h4 align=left>Resultado por imagenes </h4>
+            </div>
+      <table class=>
+        <tr>
+          <td>
+            <table class=>
+              <tbody>
+                <tr> 
+                  <td><img src="../static/img/chics.jpg" height="80" width="80" alt= "imagen no encontrada"></td>
+                  <td><img src="../static/img/pantrenza.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/panbolaleche.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/magdalena.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/alemancanela.jpg" height="80" width="80" alt= "imagen no encontrada"></td<t></t> 
+                </tr>
+                <tr> 
+                  <td><img src="../static/img/moca.jpg" height="80" width="80" alt= "imagen no encontrada"></td>
+                  <td><img src="../static/img/capuchino.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/carajillo.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/chocolate.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/expresso.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                </tr>
+                <tr> 
+                  <td><img src="../static/img/volcan.jpg" height="80" width="80" alt= "imagen no encontrada"></td>
+                  <td><img src="../static/img/caramelo.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/tresleches.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/heladocream.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/cupcakes.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                </tr>
+                <tr> 
+                  <td><img src="../static/img/carajillo.jpg" height="80" width="80" alt= "imagen no encontrada"></td>
+                  <td><img src="../static/img/pantrenza.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/caramelo.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/magdalena.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                  <td><img src="../static/img/heladocream.jpg" height="80" width="80" alt= "imagen no encontrada"></td> 
+                </tr>
+            </td> 
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td></td>
+          <td>
+            <button type="button"><b> + </b></button>
+            <button type="button"><b> - </b></button>
+            <table border bgcolor="#0E165B" class="table table-hover">
+              <thead> 
+                <tr bgcolor="#D8DBF2"> 
+                  <th>Cantidad</th> 
+                  <th>Detalle</th>
+                  <th>Precio</th>
+                </tr> 
+              </thead>
+              <tbody>
+                <tr> 
+                  <td>Cant1</td>
+                  <td>Nombre producto1</td> 
+                  <td>Valor1</td> 
+                </tr>
+                <tr> 
+                  <td>Cant2</td>
+                  <td>Nombre Producto2</td> 
+                  <td>Valor2</td> 
+                </tr>
+                <tr> 
+                  <td>Cant3</td>
+                  <td>Nombre Producto3</td> 
+                  <td>Valor3</td> 
+                </tr>
+                <tr> 
+                  <td>Cant4</td>
+                  <td>Nombre Producto4</td> 
+                  <td>Valor4</td> 
+                </tr>
+                <tr bgcolor="#D8DBF2"> 
+                  <td></td>
+                  <td><b>Precio total</b></td>
+                  <td><b>Valor</b></td> 
+                </tr>
+              </tbody>
+            </table>
+        
+          </td>
+
+        </tr>
+      </table>
+          <br>
+    
+  <div class="botonesvta">     
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" style="float:left">Cancelar venta</button>      
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal1" style="float:right">Registrar venta</button>
+  </div>
+  <br>
+  <div class="boton1"><br><br>
+    <input role=link onClick="window.location='/'" type="button" value="Cerrar Sesión" name="boton" role=link onclick="window.location='principal.html'"
+    style="border-radius: 15px; FONT-SIZE: 14pt; FONT-FAMILY: Verdana; 
+    BACKGROUND-COLOR: rgb(149, 150, 99)">
+ </div> 
+   
+    </form>
+</div>
+</div> 
+<!-- Modal Cancelar Venta--> <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">   <div class="modal-dialog" role="document">     <div class="modal-content">       <div class="modal-header">         <h5 class="modal-title" id="exampleModalLabel">Cancelar Venta</h5>         <button type="button" class="close" data-dismiss="modal" aria-label="Close">           <span aria-hidden="true">&times;</span>         </button>       </div>       <div class="modal-body">         Esta seguro que desea cancelar la venta?       </div>       <div class="modal-footer">         <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>         <button type="button" role=link onclick="window.location='/visualizacionproductos'" class="btn btn-primary">Si</button>       </div>     </div>   </div> </div>
+<!-- Modal Registrar Venta--> <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">   <div class="modal-dialog" role="document">     <div class="modal-content">       <div class="modal-header">         <h5 class="modal-title" id="exampleModalLabel">Registrar Venta</h5>         <button type="button" class="close" data-dismiss="modal" aria-label="Close">           <span aria-hidden="true">&times;</span>         </button>       </div>       <div class="modal-body">         Esta seguro que desea registrar la venta?       </div>       <div class="modal-footer">         <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>         <button type="button" role=link onclick="window.location='/visualizacionproductos'" class="btn btn-primary">Si</button>       </div>     </div>   </div> </div>
+</body>
+</html>
